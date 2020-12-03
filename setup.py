@@ -5,7 +5,9 @@ requires = [
         'pyramid',
         'paster_pastedeploy',
         'pyramid-ipython',
-        'waitress'
+        'waitress',
+        'sqlalchemy',
+        'psycopg2',
         ]
 
 setup(
