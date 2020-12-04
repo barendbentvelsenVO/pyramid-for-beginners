@@ -1,9 +1,0 @@
-pastedeploy
-psycopg2-binary
-pyramid
-pyramid-ipython
-pyramid_tm
-sqlalchemy
-transaction
-waitress
-zope.sqlalchemy
