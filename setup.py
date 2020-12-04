@@ -1,4 +1,4 @@
-etup.py
+# setup.py
 from setuptools import setup, find_packages
 
 requires = [
@@ -8,6 +8,9 @@ requires = [
         'waitress',
         'sqlalchemy',
         'psycopg2',
+        'pyramid_tm',
+        'transaction',
+        'zope.sqlalchemy',
         ]
 
 setup(
@@ -26,5 +29,6 @@ setup(
                 ],
             'console_scripts': [
                 'initdb = tutorial.scripts.initializedb:main',
+                ]
             }
         )
