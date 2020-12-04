@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 
 requires = [
         'pyramid',
-        'paster_pastedeploy',
+        'pastedeploy',
         'pyramid-ipython',
         'waitress',
         'sqlalchemy',
-        'psycopg2',
+        'psycopg2-binary',
         'pyramid_tm',
         'transaction',
         'zope.sqlalchemy',

@@ -1,0 +1,6 @@
+[console_scripts]
+initdb = tutorial.scripts.initializedb:main
+
+[paste.app_factory]
+main = tutorial:main
+
