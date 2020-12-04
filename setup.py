@@ -23,6 +23,8 @@ setup(
         entry_points={
             'paste.app_factory': [
                 'main = tutorial:main',
-                ]
+                ],
+            'console_scripts': [
+                'initdb = tutorial.scripts.initializedb:main',
             }
         )
